@@ -17,6 +17,7 @@ module.exports = {
   },
   devServer: {
     contentBase: path.resolve(__dirname, 'public'),
+    port: 9000,
     hot: true,
   },
   plugins: [
